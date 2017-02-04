@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="setbackground" format="reference|color"/>
+    <attr name="settingbackground" format="reference|color"/>
+    <attr name="textcolor" format="reference|color"/>
+     <attr name="selectorBtn" format="reference|color"/>
+      <attr name="bigbackground" format="reference|color"/>
+   
+    
+</resources>

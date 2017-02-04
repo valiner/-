@@ -1,0 +1,41 @@
+<resources>
+      <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:dividerPadding">8dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+        <style name="normalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="setbackground">@color/white</item>
+        <item name="settingbackground">@color/white</item>
+        <item name="textcolor">@color/night</item>
+        <item name="selectorBtn">@drawable/right_arr</item>
+        <item name="bigbackground">@color/white</item>
+        
+
+        
+    </style>
+
+    <style name="nightTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="setbackground">@color/night</item>
+        <item name="settingbackground">@color/night</item>
+        <item name="textcolor">@color/hui</item>
+        <item name="selectorBtn">@drawable/back</item>
+        <item name="bigbackground">@color/night</item>
+        
+        
+    </style>
+</resources>

@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting"
+    android:id="@+id/lin"
+ >
+    <ImageButton 
+        android:id="@+id/ib_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:paddingLeft="10dip"
+        android:src="@drawable/back"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:paddingTop="80dip"
+        android:src="@drawable/loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:paddingTop="80dip"
+   
+       >
+
+        <TextView 
+           
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="10dip"
+            android:textSize="23sp"
+            android:text="夜间模式" 
+           />
+   <ToggleButton    
+            android:id="@+id/mTogBtn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@drawable/toggle"
+            android:checked="false"
+            android:text=""
+            android:textOff=""
+            android:textOn="" /> 
+ 
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip" 
+        android:id="@+id/ll_size"
+       android:background="@drawable/ll_css">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="10dip"
+            android:textSize="23sp"
+            android:text="字体大小"
+            />
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="中" />
+
+        <ImageButton
+            android:id="@+id/ib_size"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right_arr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip"
+        android:id="@+id/ll_jiance"
+        android:background="@drawable/ll_css" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="10dip"
+            android:textSize="23sp"
+            android:text="检测更新"
+            />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="1.0.1" />
+
+        <ImageButton
+            android:id="@+id/ib_genxing"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right_arr" />
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dip" 
+        android:id="@+id/ll_lianxi"
+         android:background="@drawable/ll_css">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="10dip"
+            android:textSize="23sp"
+            android:text="联系我们"
+            />
+
+
+        <ImageButton
+            android:id="@+id/ib_lianxi"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right_arr"  
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
